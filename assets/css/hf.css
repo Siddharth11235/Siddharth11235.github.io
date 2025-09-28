@@ -1,0 +1,24 @@
+:root {
+    --mono: ui-monospace, "Monaspace Neon", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+.masthead,
+.masthead *:not(svg, svg *, .icon),
+.greedy-nav,
+.greedy-nav *:not(svg, svg *, .icon),
+.site-title,
+.site-nav,
+.nav__list,
+.nav__list a,
+.sidebar,
+.sidebar *:not(svg, svg *, .icon),
+.page__sidebar,
+.toc,
+.toc__menu,
+.toc__menu a,
+.page__footer,
+.page__footer *:not(svg, svg *, .icon) {
+    font-family: var(--mono) !important;
+    font-variant-ligatures: none;
+    letter-spacing: 0;
+}

@@ -1,0 +1,35 @@
+/* monochrome chrome — no font-family here */
+.masthead,
+.greedy-nav,
+.greedy-nav .hidden-links,
+.page__footer,
+.sidebar,
+.page__sidebar,
+.sidebar__left,
+.sidebar__right,
+.nav__list,
+.toc,
+.toc__menu {
+    background: #000 !important;
+    border-color: #000 !important;
+    color: #fff !important;
+}
+
+.site-title,
+.greedy-nav a,
+.greedy-nav__toggle,
+.search__toggle,
+.nav__list a,
+.toc__menu a,
+.page__footer,
+.page__footer a,
+.sidebar a {
+    color: #fff !important;
+}
+
+.greedy-nav a:hover,
+.nav__list a:hover,
+.toc__menu a:hover,
+.page__footer a:hover {
+    opacity: .8;
+}

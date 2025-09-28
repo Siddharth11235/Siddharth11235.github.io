@@ -1,9 +1,9 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
-search: false
----
+--- --- $mono: ui-monospace, "Monospace Neon", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
 
-@charset "utf-8";
+/* override mm’s stacks GLOBALLY */
+$global-font-family: $mono !default;
+$header-font-family: $mono !default;
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+/* then import the theme */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";

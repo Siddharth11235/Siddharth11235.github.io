@@ -1,2 +1,6 @@
 source "https://rubygems.org"
-gemspec
+gem "jekyll", "~> 4.3"
+gem "minimal-mistakes-jekyll"
+gem "jekyll-include-cache"
+gem "jekyll-sass-converter", "~> 2.2"
+gem "sassc", "~> 2.4"
