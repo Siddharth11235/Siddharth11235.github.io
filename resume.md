@@ -10,7 +10,7 @@ classes: [cv, wide]    # our hooks
 ---
 
 # Siddharth Agarwal
-Leuven, Belgium · +32 456 149 084 · siddharthagarwal1993@gmail.com · [LinkedIn](https://www.linkedin.com/in/siddharth-agarwal-1990b576/) · [GitHub](https://github.com/Siddharth11235)
+Belgium · siddharth11235@gmail.com · [LinkedIn](https://www.linkedin.com/in/siddharth-agarwal-1990b576/) · [GitHub](https://github.com/Siddharth11235)
 
 ---
 
