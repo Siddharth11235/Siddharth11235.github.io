@@ -3,9 +3,9 @@ layout: single
 title: "Resume"
 permalink: /resume/
 author_profile: false
-sidebar: false         # kill left nav on this page
+sidebar: false         
 toc: false
-classes: [cv, wide]    # our hooks
+classes: [cv, wide]    
 
 ---
 
